@@ -10,6 +10,7 @@
     <None Remove="Microsoft.AspNetCore.Authentication" />
     <None Remove="System.IdentityModel.Tokens.Jwt" />
     <None Remove="Microsoft.AspNetCore.Authentication.JwtBearer" />
+    <None Include="licenses\LICENSE.txt" Pack="true" PackagePath=""/>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -19,5 +20,6 @@
     <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.15.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.0" />
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </ItemGroup>
 </Project>
